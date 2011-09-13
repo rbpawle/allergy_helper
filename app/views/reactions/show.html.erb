@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Severity:</b>
+  <%= @reaction.severity %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @reaction.description %>
+</p>
+
+<p>
+  <b>Time first observed:</b>
+  <%= @reaction.time_first_observed %>
+</p>
+
+
+<%= link_to 'Edit', edit_reaction_path(@reaction) %> |
+<%= link_to 'Back', reactions_path %>
