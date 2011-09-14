@@ -55,10 +55,6 @@ div.field, div.actions {
   list-style: square;
 }
 
-tr {
-	border: 1px solid black;
-}
-
 td {
 	border: 1px solid black;
 }
